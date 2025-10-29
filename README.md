@@ -1,6 +1,6 @@
 # WDProjCesiumLozanoMonreal
 ## Intertwined Fates
-### Where the Echoes of Teyvat Collide
+### Telling the told and untold chronicles
 ******
 #### Logo: 
 #### ![Logo](https://github.com/MonrealKiko/WDProjCesiumLozanoMonreal/blob/main/assets/logo.png)

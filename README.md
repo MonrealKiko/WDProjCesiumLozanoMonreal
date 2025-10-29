@@ -17,3 +17,9 @@
 ******
 ### Description of JS:
 ### One of the key uses of JS in our website is our navigation area, as it will receive inputs from the user to determine where should the user be directed would go. Along with other inputs such as the filter tool, which will require the user to choose certain tags, which will then be sent through the filter. The filter in itself is also an integral part of JS, as it will require some uses of functions, and most especially conditional structures to change outputs depending on the inputs. The quiz will also require multiple if statements to function. 
+#### ![P1 (Home Page)](https://github.com/MonrealKiko/WDProjCesiumLozanoMonreal/blob/main/assets/wireframes/LOGO/1.png)
+#### ![P2 (Accounts Page)](https://github.com/MonrealKiko/WDProjCesiumLozanoMonreal/blob/main/assets/wireframes/LOGO/2.png)
+#### ![P3 (Account Page)](https://github.com/MonrealKiko/WDProjCesiumLozanoMonreal/blob/main/assets/wireframes/LOGO/3.png)
+#### ![P4 (Teyvat Map)](https://github.com/MonrealKiko/WDProjCesiumLozanoMonreal/blob/main/assets/wireframes/LOGO/4.png)
+#### ![P5 (Vision Quiz, Questions)](https://github.com/MonrealKiko/WDProjCesiumLozanoMonreal/blob/main/assets/wireframes/LOGO/5.png)
+#### ![P6 (Vision Quiz, Result)](https://github.com/MonrealKiko/WDProjCesiumLozanoMonreal/blob/main/assets/wireframes/LOGO/6.png)

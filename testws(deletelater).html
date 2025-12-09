@@ -16,14 +16,14 @@
         width: 100px;
         background-color: #303336;
         z-index: 0;
-        overflow: hidden; /* hides text until expanded */
+        overflow: hidden; 
     }
 
     .leftsidebar:hover {
         width: 250px;
     }
 
-    .toplefticon, .homepageicon, .searchicon {
+    .toplefticon, .homepageicon, .searchicon, .mapicon {
         position: absolute;
         background-size: contain;
         background-repeat: no-repeat;
@@ -35,15 +35,15 @@
 .toplefticon {
     width: 120px;
     height: 120px;
-    background-image: url('../WDProjCesiumLozanoMonreal/assets/logo.png');
+    background-image: url('logo.png');
     background-size: 60%;
     background-position: center;
     background-repeat: no-repeat;
     cursor: pointer;
     border-radius: 50%;
     overflow: hidden;
+    
 }
-
 
 .toplefticon::after {
     content: "";
@@ -51,7 +51,7 @@
     inset: 10px; 
     border-radius: 50%;
     background-color: rgba(255,255,255,0);
-    transition: background-color 0.2s ease;
+    transition: background-color 0.4s ease;
 }
 
 .toplefticon:hover::after {
@@ -59,21 +59,50 @@
 }
 
 .homepageicon {
-    height: 40px;
-    width: 40px;
-    background-image: url('../WDProjCesiumLozanoMonreal/assets/quest.png');
-    margin-left: 35px;
-    margin-top: 120px;
+    height: 60px;
+    width: 60px;
+    background-image: url('quest.png');
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 25px;
+    margin-top: 115px;
 }
 
-.homepageicon:hover{
-    background-color: #292b2e;
-    border-radius: 20px;
+.homepageicon::after{
+    content: "";
+    position: absolute;
+    inset: 0.01px; 
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0);
+    transition: background-color 0.4s ease;
 }
+
+.homepageicon:hover::after{
+    background-color: rgba(255,255,255,0.08);
+}
+
+.mapicon {
+    height: 60px;
+    width: 60px;
+    background-image: url('map.png');
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 25px;
+    margin-top: 180px;
+}
+
 
 .home-text {
     position: absolute;
-    top: 128px;   
+    top: 135px;   
     left: 120px;     
     font-size: 18px;
     opacity: 0;
@@ -81,7 +110,7 @@
 }
 .search-text{
     position: absolute;
-    margin-top: 66px;
+    margin-top: 90px;
     top: 128px;   
     left: 120px;     
     font-size: 18px;
@@ -94,16 +123,33 @@
     transform: translateX(10px);
 }
 .leftsidebar:hover .search-text{
-    margin-top: 66px;
+    margin-top: 90px;
     opacity: 1;
     transform: translateX(10px);
 }
 .searchicon {
-    height: 47px;
-    width: 47px;
-    background-image: url('../WDProjCesiumLozanoMonreal/assets/icon.png');
-    margin-left: 31px;
+    height: 90px;
+    width: 90px;
+    background-image: url('icon.png');
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 10px;
     margin-top: 180px;
+}
+.searchicon::after{
+    content: "";
+    position: absolute;
+    inset: 12px; 
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0);
+    transition: background-color 0.4s ease;
+}
+.searchicon:hover::after{
+    background-color: rgba(255,255,255,0.08);
 }
 </style>
 </head>
@@ -112,9 +158,9 @@
     <div class="leftsidebar">
         <div class="toplefticon"></div>
         <div class="homepageicon"></div>
-        <span class="home-text">Home</span>
+        <div class="home-text">Home</div>
         <div class="searchicon"></div>
-        <span class="search-text">Accounts</span>
+        <div class="search-text">Accounts</div>
     </div>
 </body>
 </html>

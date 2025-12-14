@@ -1,0 +1,59 @@
+.rightsidebar{
+    width: 200px;
+    height: 100%;
+    background-color: #000000;
+    z-index: 2;
+}
+.pagecontainer{
+  position: relative;
+}
+.homepageheader {
+    width: 100%;
+    height: 250px;
+    background-image: url('../WDProjCesiumLozanoMonreal/assets/homepageheader.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative; 
+    z-index: 1; 
+}
+.pagebackground {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("../WDProjCesiumLozanoMonreal/assets/pagebackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+body {
+    font-family: 'Overpass', sans-serif;
+}
+.feed {
+    margin-left: 280px;
+    padding: 30px;
+    max-width: 650px;
+    font-family: 'Overpass', sans-serif;
+}
+
+.feed-title {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.post {
+    padding: 18px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.post h2 {
+    margin: 0 0 6px 0;
+    font-size: 18px;
+}
+
+.post-date {
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 8px;
+}

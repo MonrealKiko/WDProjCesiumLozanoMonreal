@@ -5,6 +5,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="homepage.css">
+<link rel="stylesheet" href="map.css">
 <style>
     .leftsidebar {
         top: 0;
@@ -326,6 +327,24 @@ const posts = [
     image: "assets/posts/mualanioceanpic.png",
     tags: ["natlan", "hydro", "mualani"],
     date: "Sept 8, 2025"
+  },
+  {
+    account: "Alhaitham.",
+    avatar: "assets/accounts/alhaitham pfp.png",
+    title: "Dinner with Friends. ",
+    content: " ",
+    image: "assets/posts/alhaithamfriendspic.png",
+    tags: ["sumeru", "dendro", "alhaitham"],
+    date: "Sept 8, 2025"
+  },
+  {
+    account: "𝓒harlotte 𓏲ּ𝄢",
+    avatar: "assets/accounts/charlotte pfp.png",
+    title: "꒰ BREAKING NEWS 𓅯 ꒱ ",
+    content: "SPECIAL 4.1 VERSION UPDATE : NEW PLACES & MATERIALS",
+    image: "assets/posts/charlottesteambirdpic.png",
+    tags: ["fontaine", "hydro", "charlotte"],
+    date: "Sept 8, 2025"
   }
 ];
 
@@ -392,7 +411,6 @@ visionButtons.forEach(btn => {
     });
 });
 
-// Filter function
 function filterPosts() {
     allPosts.forEach(post => {
         const tags = post.dataset.tags.split(",");

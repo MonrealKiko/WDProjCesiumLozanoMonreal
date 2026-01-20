@@ -6,7 +6,7 @@
     left: 100px;
     width: 100%;
     height: 250px;
-    background-image: url('../WDProjCesiumLozanoMonreal/assets/homepageheader.png');
+    background-image: url('../assets/homepageheader.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@
     inset: 0;
     width: 100%;
     height: 100%;
-    background-image: url("../WDProjCesiumLozanoMonreal/assets/pagebackground.png");
+    background-image: url("../assets/pagebackground.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
